@@ -1,0 +1,70 @@
+html {
+    background-color: whitesmoke;
+    font-family: sans-serif;
+    background-image: url("../images/bats.gif");
+    background-repeat: repeat;
+}
+
+body    {
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    box-shadow: 10px 10px 10px 10px black;    
+}
+
+.check  {
+    margin-left: 20px;
+}
+#title1 {
+    font-size: 50px;
+    color: black;
+    text-shadow: 2px 2px black;
+    text-indent: 130px;
+    
+
+}
+#title2 {
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    line-height: 3;
+    text-indent: 50px;
+}
+
+img {
+    float: left;
+    position: relative;
+    top: -40px;
+}
+
+h1::first-letter {
+    font-size: 250%;
+    
+}
+
+header  {
+    border-bottom: 4px solid black;
+    background: linear-gradient(45deg, white 0%, orange 50%, black 100%);
+}
+
+footer  {
+    text-align: center;
+    font-size: small;
+    font-family: sans-serif;
+    border-top: 4px solid black;
+    background: linear-gradient(45deg, black 00%, orange 50%, white 100%);
+}
+
+
+a:link  {
+    color: rgba(247, 107, 14, 0.42);
+    font-weight: bold;
+}
+
+a:hover   {
+    color: green;
+}
+
+ul.products {
+    line-height: 2;
+}
